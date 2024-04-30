@@ -11,8 +11,8 @@ do {
 do {
     y = readline.question('input numero y = ');
 } while (isNaN(y));
-
-let operation = readline.question('Input operation (*, /, +, -) = ');
+//aqui iba un let
+ operation = readline.question('Input operation (*, /, +, -) = ');
 
 let result;
         
